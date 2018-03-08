@@ -1,0 +1,2 @@
+C:/Freescale/KSDK_1.2.0/platform/hal/src/tsi/fsl_tsi_v4_hal_specific.c:167:44: warning: 'elec' may be used uninitialized in this function [-Wmaybe-uninitialized]
+           res = TSI_HAL_MeasurementBlocking(base, elec, 1);
