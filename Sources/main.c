@@ -61,7 +61,8 @@ int main(void)
 	 * Contains a counter (timer), wich will
 	 * make the behaviour repeat every 100 ms
 	 */
-	for (int iTimer=0;;iTimer++) {
+	for (int iTimer=0;;iTimer++)
+	{
 		/* Play buzzer for 10 ms */
 		if(iTimer<10)
 			playBuzzer1ms();
